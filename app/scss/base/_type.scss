@@ -1,0 +1,5 @@
+body {
+  font-family: "source-sans-pro", sans-serif;
+  @include iota-type($type-20);
+  color: $color-grey;
+}

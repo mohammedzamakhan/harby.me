@@ -1,0 +1,9 @@
+$iota-utils-weight-sizes: (
+  light   : 300,
+  normal  : 400,
+  medium  : 600,
+  bold    : 700
+);
+
+
+@import 'node_modules/iotacss-utils-weight/utilities.weight';

@@ -1,0 +1,28 @@
+$iota-components-button-padding     : (
+  null  : 22px 10px,
+  sm    : 22px 40px,
+  md    : 22px 60px
+);
+$iota-components-button-color             : $color-white;
+$iota-components-button-background        : $color-blue;
+
+
+@import 'node_modules/iotacss-components-button/components.button';
+
+
+$button-background-hover  : $color-blue-light;
+
+
+.c-button {
+  text-transform: uppercase;
+  font-size:   17px;
+  line-height: 21px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: background 200ms;
+
+  @include iota-breakpoint(xs) { display: block }
+}
+
+.c-button:hover,
+.c-button:active { background-color: $button-background-hover }

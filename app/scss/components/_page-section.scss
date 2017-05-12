@@ -1,0 +1,12 @@
+.c-page-section {
+  padding: 70px 0;
+  text-align: center;
+
+  @include iota-breakpoint(sm) {
+    padding: 110px 0;
+  }
+}
+
+.c-page-section--projects { padding: 0 }
+
+.c-page-section--bio { padding-bottom: 0 }

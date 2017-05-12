@@ -1,0 +1,23 @@
+.c-page-header {
+  background: $color-grey-light;
+  position: relative;
+  overflow: hidden;
+  width:  100%;
+  height: 400px;
+
+  @include iota-breakpoint(sm) {
+    height: 500px;
+  }
+}
+
+
+  .c-page-header__figure {
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+
+
+  .c-page-header__asset { width: 500px }

@@ -1,0 +1,8 @@
+$iota-global-flex         : true;
+$iota-global-breakpoints  : (
+  xs  : "screen and ( max-width: 767px )",
+  sm  : "screen and ( min-width: 768px )",
+  md  : "screen and ( min-width: 1000px )"
+);
+
+@import 'node_modules/iotacss-settings-core/settings.core';

@@ -1,0 +1,10 @@
+$iota-objs-type-sizes: (
+  18: $type-18,
+  20: $type-20,
+  22: $type-22,
+  26: $type-26,
+  35: $type-35
+);
+
+
+@import 'node_modules/iotacss-objs-type/objects.type';

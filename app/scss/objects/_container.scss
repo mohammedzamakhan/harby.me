@@ -1,0 +1,10 @@
+$iota-objs-container-gutter-default : $baseline-x3;
+$iota-objs-container-size-default   : 800px;
+
+$iota-objs-container-size-extra: (
+  small   : 510px,
+  large   : 1000px
+);
+
+
+@import 'node_modules/iotacss-objs-container/objects.container';

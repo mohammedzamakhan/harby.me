@@ -1,0 +1,55 @@
+$project-component-padding-default  : 10px 10px 60px;
+$project-component-padding-at-sm    : 20px 20px 60px;
+
+$project-color-default    : $color-white;
+$project-color-chipotle   : rgb(150, 113, 89);
+$project-color-sequence   : rgb(128, 127, 135);
+
+$project-bgcolor-chipotle : rgb(245, 220, 196);
+$project-bgcolor-sequence : rgb(59, 59, 61);
+$project-bgcolor-chute    : rgb(44, 175, 212);
+$project-bgcolor-worldly  : rgb(134, 187, 189);
+
+$project-bggradient-iotacss   : linear-gradient(225deg, #a248ec, #7549ee);
+$project-bggradient-pictureio : linear-gradient(45deg, #2F70F0, #1BAA85);
+
+
+.c-project {
+  padding: $project-component-padding-default;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+
+  @include iota-breakpoint(sm) {
+    padding: $project-component-padding-at-sm;
+  }
+}
+
+.c-project--chipotle  { background: $project-bgcolor-chipotle }
+.c-project--sequence  { background: $project-bgcolor-sequence }
+.c-project--chute     { background: $project-bgcolor-chute }
+.c-project--worldly   { background: $project-bgcolor-worldly }
+.c-project--iotacss   { background-image: $project-bggradient-iotacss }
+.c-project--pictureio { background-image: $project-bggradient-pictureio }
+
+
+  .c-project__title {
+    color: $project-color-default;
+
+    .c-project--chipotle    & { color: $project-color-chipotle }
+    .c-project--sequence    & { color: $project-color-sequence }
+  }
+
+
+  .c-project__description {
+    color: $project-color-default;
+
+    .c-project--chipotle    & { color: $project-color-chipotle }
+    .c-project--sequence    & { color: $project-color-sequence }
+  }
+
+
+  .c-project__asset {
+
+    @include iota-breakpoint(xs) { width: 70% }
+  }

@@ -1,0 +1,20 @@
+$iota-components-social-size : 34px;
+
+
+.c-social {}
+
+  
+  .c-social__link {
+    display: block;
+    width:  $iota-components-social-size;
+    height: $iota-components-social-size;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  .c-social__link--medium     { background-image: url('../svg/icon-medium.svg') }
+  .c-social__link--twitter    { background-image: url('../svg/icon-twitter.svg') }
+  .c-social__link--facebook   { background-image: url('../svg/icon-facebook.svg') }
+  .c-social__link--github     { background-image: url('../svg/icon-github.svg') }
+  .c-social__link--instagram  { background-image: url('../svg/icon-instagram.svg') }

@@ -1,0 +1,41 @@
+{
+  "name": "harby.me",
+  "version": "2.1.12",
+  "description": "Personal Website of Dimitris Psaropoulos",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "2.18.8",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "4.0.0",
+    "gulp-cssmin": "0.1.7",
+    "gulp-if": "2.0.2",
+    "gulp-imagemin": "3.2.0",
+    "gulp-notify": "3.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "3.1.0",
+    "gulp-sass-unicode": "1.0.1",
+    "gulp-util": "3.0.8",
+    "iotacss-base-initialize": "1.0.0",
+    "iotacss-components-button": "1.0.2",
+    "iotacss-objs-container": "1.0.0",
+    "iotacss-objs-grid": "1.0.3",
+    "iotacss-objs-list": "1.0.3",
+    "iotacss-objs-type": "1.0.5",
+    "iotacss-settings-core": "1.0.1",
+    "iotacss-tools-breakpoint": "1.0.0",
+    "iotacss-tools-core": "1.0.8",
+    "iotacss-tools-type": "1.0.1",
+    "iotacss-utils-color": "1.0.0",
+    "iotacss-utils-margin": "1.0.2",
+    "iotacss-utils-opacity": "1.0.0",
+    "iotacss-utils-size": "1.0.0",
+    "iotacss-utils-text": "1.0.1",
+    "iotacss-utils-transform": "1.0.1",
+    "iotacss-utils-weight": "1.0.1"
+  },
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp build --production"
+  },
+  "author": "Dimitris Psaropoulos <info@harby.me>"
+}

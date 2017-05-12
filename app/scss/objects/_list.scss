@@ -1,0 +1,7 @@
+$iota-objs-list-inline        : true;
+$iota-objs-list-aligned       : true;
+$iota-objs-list-gutter-extra  : (
+  gutter-x4: $baseline-x4
+);
+
+@import 'node_modules/iotacss-objs-list/objects.list';
